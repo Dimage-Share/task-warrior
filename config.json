@@ -1,0 +1,61 @@
+{
+	"screen": {
+		"width": 1600,
+		"height": 900
+	},
+	"row_height": 60,
+	"cursor": {
+		"width": 16,
+		"height": 24
+	},
+	"padding": 8,
+	"header": {
+		"rect": { "x": 8, "y": 8 }
+	},
+	"footer": {
+		"rect": { "x": 8, "y": 8 }
+	},
+	"menu": {
+		"column_margin": 32,
+		"origin": {
+			"x": 32,
+			"y": 92
+		},
+		"margin": { "left": 12, "top": 12, "right": 24, "bottom": 48 },
+		"items": [
+			["日記", "新しいタスク"],
+			["プロジェクト", "整理"],
+			["予定", "さくせん"],
+			[null, "モチベーション"]
+		]
+	},
+	"status_bar": {
+		"name": "けいた"
+	},
+	"font": {
+		"path": "./fonts/UDEVGothic35-Regular.ttf",
+		"size": 28
+	},
+	"colors": {
+		"background": [0, 0, 0],
+		"window_blue": [0, 20, 140],
+		"window_white": [255, 255, 255],
+		"font_color": [255, 255, 255],
+		"inactive_color": [128, 128, 128],
+		"motivation_100": [255, 69, 0],
+		"motivation_0": [135, 206, 250]
+	},
+	"database": {
+		"path": "gtd_quest.db"
+	},
+	"strategy_options": ["ガンガンいこうぜ", "みんながんばれ", "いのちだいじに", "ぼうそうやめろ", "めいれいさせろ"],
+	"task_form": {
+		"priorities": {
+			"特急": 4,
+			"高": 3,
+			"中": 2,
+			"低": 1
+		},
+		"dur": ["2分", "5分", "15分", "30分", "45分", "1H", "1.5H", "2H", "3H", "1d", "TBD"]
+	}
+}

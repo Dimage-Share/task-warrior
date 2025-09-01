@@ -1,0 +1,21 @@
+from enum import Enum, auto
+
+class Scene(Enum):
+    TOP_MENU = auto()
+    INPUT_TASK = auto()
+    CHOOSE_STRATEGY = auto()
+    PROJECT = auto()
+    ORGANIZE_TASKS = auto()
+    ORGANIZE_SUBMENU = auto()
+    SCHEDULE_INPUT_NAME = auto()
+    SCHEDULE_SELECT_DAYS = auto()
+    SCHEDULE_SELECT_TIME = auto()
+    SCHEDULE_CONFIRM = auto()
+    SCHEDULE_LIST = auto()
+    DIARY_INPUT = auto()
+    SCHEDULE_SUBMENU = auto()
+    SCHEDULE_EDIT_NAME = auto()
+    SCHEDULE_EDIT_DAYS = auto()
+    SCHEDULE_EDIT_TIME = auto()
+    SCHEDULE_EDIT_CONFIRM = auto()
+    MOTIVATION_VIEW = auto()
